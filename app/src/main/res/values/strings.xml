@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Remove Paywall (18ft.io-helper)</string>
+    <string name="hello_world">You should share a link via the App to get the 12ft.io link</string>
+    <string name="redirected_links">Removed a paywall %1$d times</string>
+    <string name="credits_to"><a href="https://www.12ft.io">credits 12ft.io</a></string>
+    <string name="content_background_hand_left">content background hand left</string>
+    <string name="content_background_hand_right">content background hand right</string>
+    <string name="content_logo_12ft_io">content logo 12ft.io</string>
+</resources>
