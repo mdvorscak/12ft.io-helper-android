@@ -6,6 +6,5 @@ checkout https://12ft.io
 
 [get the apk here](../master/app/release/app-release.apk)
 
-
-![image](https://user-images.githubusercontent.com/2110765/214606553-81ea8717-c050-4dae-b51f-99029310d5ac.png)
+![image](https://github.com/longstone/12ft.io-helper-android/blob/master/app/doc/main-screen.png?raw=true)
 
