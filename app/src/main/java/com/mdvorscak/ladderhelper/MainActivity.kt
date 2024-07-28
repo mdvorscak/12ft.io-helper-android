@@ -1,4 +1,4 @@
-package ch.longstone.a18ftiohelper
+package com.mdvorscak.ladderhelper
 
 import android.content.SharedPreferences
 import android.os.Bundle

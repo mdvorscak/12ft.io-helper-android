@@ -1,4 +1,4 @@
-package ch.longstone.a18ftiohelper
+package com.mdvorscak.ladderhelper
 
 class MyPreferences {
     companion object {

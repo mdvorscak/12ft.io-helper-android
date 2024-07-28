@@ -7,7 +7,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "ch.longstone.a18ftiohelper"
+        applicationId "com.mdvorscak.ladderhelper"
         minSdk 29
         targetSdk 33
         versionCode 1
@@ -29,7 +29,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    namespace 'ch.longstone.a18ftiohelper'
+    namespace 'com.mdvorscak.ladderhelper'
 }
 
 dependencies {

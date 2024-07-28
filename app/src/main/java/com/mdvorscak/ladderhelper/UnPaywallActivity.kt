@@ -1,4 +1,4 @@
-package ch.longstone.a18ftiohelper
+package com.mdvorscak.ladderhelper
 
 import android.content.Context
 import android.content.Intent
@@ -22,11 +22,19 @@ class UnPaywallActivity : AppCompatActivity() {
         handleIntent()
     }
 
+    private fun extractUrl(text: String): String? {
+        val urlPattern = "https?://[\\w-]+(\\.[\\w-]+)+(/\\S*)?"
+        val regex = Regex(urlPattern)
+        val matchResult = regex.find(text)
+        return matchResult?.value
+    }
+
     private fun handleIntent() {
         // Get the intent that started this activity
         val intent: Intent = intent
         val action: String? = intent.action
-        val url = intent.getStringExtra(Intent.EXTRA_TEXT)
+        val sharedText = intent.getStringExtra(Intent.EXTRA_TEXT)
+        val url = sharedText?.let { extractUrl(it) }
         // Check if the intent is a "send" action and there is a URL in the data
         if (Intent.ACTION_SEND == action && url != null) {
             // Add "https://12ft.io/" to the front of the URL
